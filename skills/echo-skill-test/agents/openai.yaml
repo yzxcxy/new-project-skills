@@ -1,0 +1,4 @@
+interface:
+  display_name: "Echo Skill Test"
+  short_description: "Verify skill loading with echo output"
+  default_prompt: "Use $echo-skill-test to confirm this skill is loaded."
