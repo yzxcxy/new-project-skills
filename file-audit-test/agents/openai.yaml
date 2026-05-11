@@ -1,4 +1,4 @@
 interface:
   display_name: "File Audit Test"
-  short_description: "Lightweight file and folder audit helper"
-  default_prompt: "Use $file-audit-test to inspect the current test files."
+  short_description: "Audit files and update-test changes"
+  default_prompt: "Use $file-audit-test to inspect the updated test files."

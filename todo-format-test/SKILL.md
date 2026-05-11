@@ -1,6 +1,6 @@
 ---
 name: todo-format-test
-description: Use this test skill to convert rough notes, bug lists, or small task descriptions into a concise actionable checklist. Trigger it when a user asks to format todos, normalize a test task list, or validate checklist-generation behavior.
+description: Use this test skill to convert rough notes, bug lists, update-test notes, or small task descriptions into a concise actionable checklist. Trigger it when a user asks to format todos, normalize a test task list, or validate checklist-generation behavior.
 ---
 
 # Todo Format Test
@@ -13,6 +13,7 @@ Convert the user's rough notes into a checklist with:
 2. One task per line
 3. Optional grouping only when it improves scanning
 4. No added tasks beyond what the user provided
+5. Stable ordering that preserves the user's stated priority when present
 
 ## Output Format
 

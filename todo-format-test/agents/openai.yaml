@@ -1,4 +1,4 @@
 interface:
   display_name: "Todo Format Test"
-  short_description: "Turn rough notes into test checklists"
-  default_prompt: "Use $todo-format-test to turn these notes into a checklist."
+  short_description: "Format notes into stable test checklists"
+  default_prompt: "Use $todo-format-test to turn these updated notes into a checklist."

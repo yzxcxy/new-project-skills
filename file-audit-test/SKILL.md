@@ -1,6 +1,6 @@
 ---
 name: file-audit-test
-description: Use this test skill to perform a lightweight audit of one or more files or directories. Trigger it when a user asks to inspect test fixtures, summarize local project files, check file organization, or verify that file-reading workflows are working.
+description: Use this test skill to perform a lightweight audit of one or more files or directories and report update-test observations. Trigger it when a user asks to inspect test fixtures, summarize local project files, check file organization, or verify that file-reading workflows are working.
 ---
 
 # File Audit Test
@@ -20,6 +20,7 @@ description: Use this test skill to perform a lightweight audit of one or more f
 - Obvious naming or placement issues
 - Empty files or stub-only content
 - Basic structure mismatches
+- Recently changed files relevant to the requested scope
 
 ## Constraints
 
