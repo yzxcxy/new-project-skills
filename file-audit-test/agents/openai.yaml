@@ -1,4 +1,4 @@
 interface:
   display_name: "File Audit Test"
-  short_description: "Audit files and update-test changes"
-  default_prompt: "Use $file-audit-test to inspect the updated test files."
+  short_description: "Audit repeated update-test changes"
+  default_prompt: "Use $file-audit-test to inspect the second updated test files."
